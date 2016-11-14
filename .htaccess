@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^(.*)\.(jpg|png|jpeg|gif)$ index.php [NC,L]
